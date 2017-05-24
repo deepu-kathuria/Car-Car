@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846858037827",
+    "firebase_url": "https://carcare-9f02f.firebaseio.com",
+    "project_id": "carcare-9f02f",
+    "storage_bucket": "carcare-9f02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846858037827:android:38fe289144286e43",
+        "android_client_info": {
+          "package_name": "com.example.deepanshu.carcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846858037827-pic04g98jpfqckqfc1455vc1il8tdvg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deepanshu.carcare",
+            "certificate_hash": "b476bd5b8dc902f50a66cb7e4ab0f554296acc6b"
+          }
+        },
+        {
+          "client_id": "846858037827-ciu9o2fqf31f1v2caieg8m41v1ib0hkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuZOMdREnK8OEDO8JxSM_A4toTCN6ftnQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846858037827-ciu9o2fqf31f1v2caieg8m41v1ib0hkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

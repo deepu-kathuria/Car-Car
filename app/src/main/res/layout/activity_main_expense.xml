@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepanshu.carcare.main_expense">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/date_expense"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Date: 23/11/2016"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/odometer_expense"
+        android:layout_below="@+id/date_expense"
+        android:layout_alignLeft="@+id/date_expense"
+        android:layout_alignStart="@+id/date_expense"
+        android:layout_alignRight="@+id/date_expense"
+        android:layout_alignEnd="@+id/date_expense"
+        android:hint="Odometer"
+        />
+
+    <Spinner
+        android:id="@+id/reason_expense"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/odometer_expense"
+        android:layout_alignLeft="@+id/odometer_expense"
+        android:layout_alignStart="@+id/odometer_expense"
+
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/expense_type"
+        android:layout_below="@+id/reason_expense"
+        android:layout_alignLeft="@+id/reason_expense"
+        android:layout_alignStart="@+id/reason_expense"
+        android:layout_alignRight="@+id/reason_expense"
+        android:layout_alignEnd="@+id/reason_expense"
+        android:hint="Expense Type"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/expense_value"
+        android:hint="Expense Value"
+        android:layout_below="@+id/expense_type"
+        android:layout_alignLeft="@+id/expense_type"
+        android:layout_alignStart="@+id/expense_type"
+        android:layout_alignRight="@+id/expense_type"
+        android:layout_alignEnd="@+id/expense_type" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_expense"
+        android:layout_below="@+id/expense_value"
+        android:layout_marginTop="32dp"
+        android:layout_alignRight="@+id/expense_value"
+        android:layout_alignEnd="@+id/expense_value"
+        android:layout_alignLeft="@+id/expense_value"
+        android:layout_alignStart="@+id/expense_value"
+
+        />
+
+</RelativeLayout>

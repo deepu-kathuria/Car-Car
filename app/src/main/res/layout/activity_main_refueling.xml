@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.deepanshu.carcare.main_refueling">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/date_expense"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Date : 22/03/2017"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/odometer_expense"
+        android:layout_below="@+id/date_expense"
+        android:layout_alignLeft="@+id/date_expense"
+        android:layout_alignStart="@+id/date_expense"
+        android:layout_alignRight="@+id/date_expense"
+        android:layout_alignEnd="@+id/date_expense"
+        android:hint="Odometer"
+        />
+
+    <Spinner
+        android:id="@+id/reason_expense"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/odometer_expense"
+        android:layout_alignLeft="@+id/odometer_expense"
+        android:layout_alignStart="@+id/odometer_expense"
+
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/reason_expense"
+        android:layout_alignLeft="@+id/reason_expense"
+        android:layout_alignStart="@+id/reason_expense"
+        android:hint="price"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/editText5"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_alignRight="@+id/service_type"
+        android:layout_alignEnd="@+id/service_type"
+        android:hint="Total Cost"
+        />
+
+    <Spinner
+        android:id="@+id/service_type"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/sbumit_fuel"
+        android:layout_below="@+id/service_type"
+        android:layout_marginTop="32dp"
+        android:layout_alignRight="@+id/service_type"
+        android:layout_alignEnd="@+id/service_type"
+        android:layout_alignLeft="@+id/service_type"
+        android:layout_alignStart="@+id/service_type"
+        android:background="@color/fab2_color"
+
+        />
+
+</RelativeLayout>
